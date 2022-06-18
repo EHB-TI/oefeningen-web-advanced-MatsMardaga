@@ -1,16 +1,21 @@
 'use strict';
 
 function controleerLeeftijd(event){
-  event.preventDefault();
 
-  let age = document.getElementById('age').value;
-  if(age >= 18){
-    console.log('welcome feller');
-  }
-  else{
-    console.log("You are too too young");
-  }
+    let age = document.getElementById('age').value;
+    let fname = document.getElementById('fname').value;
+    let lname = document.getElementById('lname').value;
+    if(age >= 18){
+        alert("Welcome"+ " " + fname + " " + lname);
+    }
+    else{
+        alert("You are too too young" + " " + fname + " " + lname);
+    }
 }
+
 
 const form = document.getElementById('form');
 form.addEventListener('submit', controleerLeeftijd);
+
+
+
