@@ -1,14 +1,24 @@
-window.onload = () => {
+'use strict';
 
-    (async function f() {
+window.onload = function(){
+    
+    
 
-        let promise1 = new Promise((noErr, err) => {
-           setTimeout(() => noErr('Done!'), 1000);
-        });
-        let result = await promise1;
+    let num = document.getElementById('num').value;
+    const rndInt = Math.floor(Math.random() * 20) + 0
 
-        alert(result);
-    })();
-}
-
-
+    let compNum = () => {
+       setTimeout(()=>{
+        if(num == rndInt){
+            alert('Correct guess');
+        }
+        else{
+            alert('loser');
+            console.log(rndInt);
+        }
+        
+       }, 2000);
+    };
+    document.getElementById('btn').addEventListener('click', compNum);
+    
+};
