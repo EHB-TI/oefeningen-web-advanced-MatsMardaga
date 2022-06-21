@@ -1,0 +1,20 @@
+{
+  "name": "oefeningen-web-advanced-matsmardaga",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EHB-TI/oefeningen-web-advanced-MatsMardaga.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EHB-TI/oefeningen-web-advanced-MatsMardaga/issues"
+  },
+  "homepage": "https://github.com/EHB-TI/oefeningen-web-advanced-MatsMardaga#readme"
+}
