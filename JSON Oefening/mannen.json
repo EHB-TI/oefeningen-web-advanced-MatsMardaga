@@ -1,0 +1,17 @@
+[{
+	"Naam": "Mats",
+	"LEEFTIJD": 19,
+	"Hobbies": ["Gamen", "Sportschieten", "Kamperen"]
+}, {
+	"Naam": "Ilias",
+	"LEEFTIJD": 20,
+	"Hobbies": ["Gamen", "Chickies Fixen", "Bruin"]
+}, {
+	"Naam": "Jensy",
+	"LEEFTIJD": 19,
+	"Hobbies": ["Gamen", "Autos", "F1"]
+}, {
+	"Naam": "Koen",
+	"LEEFTIJD": 20,
+	"Hobbies": ["Gamen", "Jonkos doen", "Schwabben"]
+}]

@@ -8,3 +8,4 @@ if(userInput >=18){
 else{
     alert("You ain't old enough feller");
 }
+

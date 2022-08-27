@@ -1,0 +1,41 @@
+body{
+    margin: 0px 0px;
+    padding: 0px 0px;
+}
+
+#maincontainer{
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+    grid-template-rows: 10% 80% 10%;
+    grid-template-areas:  
+    "header header header"
+    "leftbar centerbar rightbar"
+    "leftbar footer rightbar";
+    height: 100vh;
+}
+
+#header{
+    grid-area: header;
+    background-color: beige;
+    margin: 0px 0px 5px 0px;
+}
+#leftbar{
+    grid-area: leftbar;
+    background-color: beige;
+    margin: 5px 5px 5px 0px;
+}
+#centerbar{
+    grid-area: centerbar;
+    background-color: beige;
+    margin: 5px 5px 5px 5px;
+}
+#rightbar{
+    grid-area: rightbar;
+    background-color: beige;
+    margin: 5px 0px 5px 5px;
+}
+#footer{
+    grid-area: footer;
+    background-color: beige;
+    margin: 5px 5px 5px 5px;
+}
