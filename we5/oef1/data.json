@@ -1,0 +1,20 @@
+[
+    {
+        "name": "Mats Mardaga",
+        "age": 19,
+        "degree": "TI",
+        "courses": [
+            "Web Advanced",
+            "Integration project"
+        ]
+    },
+    {
+        "name": "Ilias Amelhay",
+        "age": 20,
+        "degree": "TI",
+        "courses": [
+            "Web Advanced",
+            "Integration project"
+        ]
+    }
+]

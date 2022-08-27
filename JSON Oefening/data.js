@@ -4,7 +4,8 @@ window.onload = () => {
         let data = await resp.json();
         mannen = data;
 
-        document.getElementById('paragraaf').innerText = 2a.69069;
+        document.getElementById('paragraaf').innerText = data;
+        console.log(mannen);
     }
 
     getMannen();
