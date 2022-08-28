@@ -26,7 +26,6 @@ window.onload = ()=>{
     let voegTijdToe = (movie2) =>{
         document.getElementById('time-wasted').innerText = movie2.Runtime;
        // document.getElementById('time-wasted').innerText = movie.Runtime;
-        console.log('test');
     }
 
     let submitForm = event =>{
